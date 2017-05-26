@@ -1,4 +1,4 @@
-# Arduino-Ethernet-Initial-state-pir-Logger-
+# Arduino Uno med Ethernet Shield - Initial state pir Logger
 Dette inlæg viser et eksempel på hvordan man sende data til Initialstate.com. Initial state er et godt alternativ hvis du ikke har det store kendskab til MySql og databaser generelt. Med Initial State får man et grafisk interface hvor ens logninger bliver vist via grafer. Alle målinger bliver vist i realtid hvilket betyder at man har mulighed for at benytte systemet til en infoskærm.
 
 # Step 1
