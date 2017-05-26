@@ -2,6 +2,8 @@
 Dette inlæg viser et eksempel på hvordan man sende data til Initialstate.com. Initial state er et godt alternativ hvis du ikke har det store kendskab til MySql og databaser generelt. Med Initial State får man et grafisk interface hvor ens logninger bliver vist via grafer. Alle målinger bliver vist i realtid hvilket betyder at man har mulighed for at benytte systemet til en infoskærm.
 
 # Step 1
+<img src="http://blog.mlsdesign.dk/images/InitialState/Skrmbillede-2016-06-04-kl.-14.52.10.png" width="350"/>
+
 Som vist på billedet, give Initial state en flot graf over de events som vi logger med en Arduino Uno + Ethernet Shield. Via en pir sensor kan vi måle fx. hvor mange gange man benytter sig af et gæsteværelse eller hvor mange gange lyset i garagen bliver aktiveret.
 
 Selvom mit projekt har fokus på en pir sensor som giver et fast signal på “1”. kan man sagtens gå ind og sende flere værdier med fx. temperatur, fugtighed, co2 niveau og via forbrug om pæren er sprunget. Med en frekvens fx. hvert 10 min. 
@@ -20,4 +22,5 @@ Husk at opret et signal i det pågældende skema. I mit tilfælde hedder det “
 I bunden af filen ligger funktionen postData() som er den funktion der laver en connection til Initial State via json. Derudover tjekker den om forbindelsen er etableret ellers skriver den fejl. 
 
 # Step 3
+<img src="http://blog.mlsdesign.dk/images/InitialState/FullSizeRender.jpg.jpeg" width="350"/>
 Det færdige resultat ser således ud og virker upåklageligt. Husk at indstil hvor bred sensoren skal måle samt hvor lang tid signalet skal være aktivt på pir sensoren. Derudover er det vigtigt at man sikre sig at Jord og +5 volt er placeret korrekt så sensoren ikke bliver brændt af.  
